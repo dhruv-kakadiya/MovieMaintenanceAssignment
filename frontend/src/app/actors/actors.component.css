@@ -1,0 +1,155 @@
+/* #body {
+    width: 100%;
+    display: flex;
+    min-height: 93vh;
+}
+
+#body .left {
+    flex-basis: 15%;
+    background-color: #191C1F;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+#body .left div {
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+#body .left .active {
+    background-color: #222B31;
+}
+
+#body .right {
+    flex-basis: 85%;
+    background-color: #222B31;
+}
+
+#body .right .header {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    padding: 2rem;
+    font-weight: 550;
+    color: white;
+    display: flex;
+}
+
+#body .right .items {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    #body .left {
+        padding-top: 5%;
+        flex-basis: 20%;
+    }
+
+    #body .right {
+        flex-basis: 80%;
+    }
+
+    #body .right .header {
+        font-size: 1rem;
+    }
+
+    #body .right .items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #body .left {
+        font-size: 0.9rem;
+        padding-top: 7%;
+        flex-basis: 25%;
+    }
+
+    #body .right {
+        flex-basis: 75%;
+    }
+
+    #body .right .header {
+        font-size: 1rem;
+    }
+
+    #body .right .items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #body {
+        flex-direction: column;
+    }
+
+    #body .left {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0%;
+        font-size: 0.8rem;
+    }
+
+    #body .right .items {
+        grid-template-columns: 1fr;
+    }
+
+    #body .right .header {
+        font-size: 1rem;
+    }
+} */
+
+
+.header {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    padding: 2rem;
+    font-weight: 550;
+    color: white;
+    display: flex;
+}
+
+.items {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .header {
+        font-size: 1rem;
+    }
+
+    .items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 1rem;
+    }
+
+    .items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        font-size: 1rem;
+    }
+}

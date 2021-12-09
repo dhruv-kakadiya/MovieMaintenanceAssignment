@@ -1,0 +1,19 @@
+<div class="item-img">
+    <img src="http://127.0.0.1:8000{{movie.image}}" alt="movie1"/>
+</div>
+<div class="item-discription">
+    <div class="title-item">Title: {{movie.title}}</div>
+    <div class="release-date">Release Date: {{movie.releaseDate | date: 'dd-MM-yyyy'}}</div>
+    <div class="number">No. of Actors: {{numberOfActors}}</div>
+    <div class="description">Description: {{movie.description}}</div>
+    <div class="votes">
+        <div class="upvote">
+            <i (click)="upvoteClick()" class="fa fa-thumbs-up"></i>
+            <div class="vote-number">{{movie.upvote}}</div>
+        </div>
+        <div class="downvote">
+            <i (click)="downvoteClick()" class="fa fa-thumbs-down"></i>
+            <div class="vote-number">{{movie.downvote}}</div>
+        </div>
+    </div>
+</div>

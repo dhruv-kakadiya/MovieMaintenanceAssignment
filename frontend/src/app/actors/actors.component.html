@@ -1,0 +1,24 @@
+<!--
+<section id="body">
+    <div class="left">
+        <div routerLink="/">Home</div>
+        <div routerLink="/movies">Movies</div>
+        <div routerLink="/actors" class="active">Actors</div>
+    </div>
+    <div class="right">
+        <div class="header">Actors List</div>
+        <div class="items">
+            <div class="item" *ngFor="let actor of actors">
+                <app-actor [actor]="actor"></app-actor>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<div class="header">Actors List</div>
+<div class="items">
+    <div class="item" *ngFor="let actor of actors">
+        <app-actor [actor]="actor"></app-actor>
+    </div>
+</div>

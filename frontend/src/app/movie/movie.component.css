@@ -1,0 +1,46 @@
+.item-img img {
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.item-discription {
+    padding: 1rem 1rem 0rem 1rem;
+    color: white;
+    font-size: 11px;
+}
+
+.item-discription div {
+    margin-bottom: 0.5rem;
+}
+
+.item-discription .description {
+    line-height: 1.3rem;
+}
+
+.item-discription .votes {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.item-discription .votes i {
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.item-discription .votes .upvote {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-around;
+    color: green;
+}
+
+.item-discription .votes .downvote {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-around;
+    color: red;
+}

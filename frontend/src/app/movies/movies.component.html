@@ -1,0 +1,38 @@
+<!--
+<section id="body">
+    <div class="left">
+        <div routerLink="/">Home</div>
+        <div routerLink="/movies" class="active">Movies</div>
+        <div routerLink="/actors">Actors</div>
+    </div>
+    <div class="right">
+        <div class="header">
+            <div class="title">Movie List</div>
+            <div class="sort-btns">
+                <div>Sort By: </div>
+                <button (click)="sortByTitle()" type="button" class="sort-btn">Title</button>
+                <button (click)="sortByDate()" type="button" class="sort-btn">Release Date</button>
+            </div>
+        </div>
+        <div class="items">
+            <div class="item" *ngFor="let movie of movies">
+                <app-movie [movie]="movie"></app-movie>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<div class="header">
+    <div class="title">Movie List</div>
+    <div class="sort-btns">
+        <div>Sort By: </div>
+        <button (click)="sortByTitle()" type="button" class="sort-btn">Title</button>
+        <button (click)="sortByDate()" type="button" class="sort-btn">Release Date</button>
+    </div>
+</div>
+<div class="items">
+    <div class="item" *ngFor="let movie of movies">
+        <app-movie [movie]="movie"></app-movie>
+    </div>
+</div>

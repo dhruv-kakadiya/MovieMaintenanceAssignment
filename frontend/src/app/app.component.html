@@ -1,0 +1,17 @@
+<section id="title-bar">
+    <div class="left"></div>
+    <div class="right">
+        <div>Movie Maintenance Website</div>
+    </div>
+</section>
+
+<section id="body">
+    <div class="left">
+        <div routerLink="/" [class]="home ? 'active' : ''">Home</div>
+        <div routerLink="/movies" [class]="movie ? 'active' : ''">Movies</div>
+        <div routerLink="/actors" [class]="actor ? 'active' : ''">Actors</div>
+    </div>
+    <div class="right">
+        <router-outlet></router-outlet>
+    </div>
+</section>

@@ -1,0 +1,174 @@
+/* #body {
+    width: 100%;
+    display: flex;
+    min-height: 93vh;
+}
+
+#body .left {
+    flex-basis: 15%;
+    background-color: #191C1F;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+#body .left div {
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+#body .left .active {
+    background-color: #222B31;
+}
+
+#body .right {
+    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222B31;
+}
+
+#body .right img {
+    width: 40%;
+}
+
+#body .right .title {
+    margin-top: 2%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    #body .left {
+        padding-top: 5%;
+        flex-basis: 20%;
+    }
+
+    #body .right {
+        flex-basis: 80%;
+    }
+
+    #body .right img {
+        width: 50%;
+    }
+
+    #body .right .title {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #body .left {
+        padding-top: 7%;
+        font-size: 0.9rem;
+        flex-basis: 25%;
+    }
+
+    #body .right {
+        flex-basis: 75%;
+    }
+
+    #body .right img {
+        width: 60%;
+    }
+
+    #body .right .title {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #body {
+        flex-direction: column;
+        height: 93vh;
+    }
+
+    #body .left {
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+        font-size: 0.8rem;
+        height: 3vh;
+    }
+    
+    #body .right {
+        height: 90vh;
+    }
+
+    #body .right img {
+        width: 70%;
+    }
+
+    #body .right .title {
+        margin-top: 15%;
+    }
+} */
+
+.home {
+    min-height: 93vh;
+}
+
+.img {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 30%;
+}
+
+.title {
+    margin-top: 5%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .img {
+        margin-top: 15%;
+    }
+
+    .img img {
+        width: 50%;
+    }
+
+    .title {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img {
+        margin-top: 20%;
+    }
+
+    .img img {
+        width: 60%;
+    }
+
+    .title {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .img {
+        margin-top: 25%;
+    }
+
+    .img img {
+        width: 70%;
+    }
+
+    .title {
+        margin-top: 20%;
+    }
+}
